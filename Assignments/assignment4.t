@@ -1,4 +1,3 @@
-setscreen("msdos")
 /*
  2023.05.25
  TEJ2O1-02
@@ -33,6 +32,7 @@ put chr(219)
 
 bottomText("Step 2")
 
+setscreen("msdos")
 locate (1, 5)
 put chr (218) ..
 put repeat (chr (196), 25) ..
